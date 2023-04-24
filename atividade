@@ -1,0 +1,161 @@
+/*1) Escreva um algoritmo para imprimir os 
+10 primeiros números inteiros maiores que 100. 
+*/
+
+let i = 1010
+let a = i + 10
+
+if (i > 100) {
+    for (i; i < a; i++) {
+        console.log(i)
+    }
+} else {
+    console.log('Número menor ou igual a 100')
+}
+
+
+/*
+2)Faça um script que leia três números inteiros 
+e mostre o maior deles.
+*/
+/*
+let n1 = 20
+let n2 = 10
+let n3 = 4
+
+if(n1 > n2 && n1 > n3) {
+    console.log(n1)
+} else if (n2 > n1 && n2 > n3) {
+    console.log(n2)
+} else {
+    console.log(n3)
+}
+*/
+
+/*
+3)Faça um script que leia três números inteiros, 
+em seguida mostre o maior e o menor deles.
+*/
+/*
+let n1 = 3
+let n2 = 10
+let n3 = 40
+
+if(n1 > n2 && n1 > n3) {
+    if (n2 > n3) {
+        console.log(`O ${n3} é menor que o ${n2}`)
+    } else {
+        console.log(`O ${n2} é menor que o ${n3}`)
+    }
+    console.log(`O ${n1} é o maior`)
+} else if (n2 > n1 && n2 > n3) {
+    if (n1 > n3) {
+        console.log(`O ${n3} é menor que o ${n1}`)
+    } else {
+        console.log(`O ${n1} é menor que o ${n3}`)
+    }
+    console.log(`O ${n2} é o maior`)
+} else {
+    if (n2 > n1) {
+        console.log(`O ${n1} é menor que o ${n2}`)
+    } else {
+        console.log(`O ${n2} é menor que o ${n1}`)
+    }
+    console.log(`O ${n2} é o maior`)
+}
+*/
+
+/*
+4) Faça um algoritmo que possua as variáveis nome, cpf, idade, 
+data_nascimento. Atribua valores a ela e mostre seus valores
+*/
+/*
+let info = {
+    nome: 'Tiago',
+    idade: 24,
+    dataNascimento: '21/01/1998',
+    cpf: '111.111.111-11'
+}
+
+console.log(info)
+*/
+
+/* 
+5)Faça um algoritmo que tenha as variáveis nomeproduto, preco, estoque, 
+validade. Atribua valores a elas e mostre na body. 
+*/
+/*
+let infoProduto = {
+    nome: 'Caneta',
+    preco: 1.2,
+    estoque: 1991,
+    validade: 'Sem validade'
+}
+console.log(infoProduto)
+*/
+/*
+6) Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, 
+calcular e escrever o valor correspondente em graus Celsius 
+(baseado na fórmula abaixo): 
+*/
+
+/*
+let fahrenheit = 32
+
+let celsius = ((fahrenheit - 32) * 5)/9
+
+console.log(celsius)
+*/
+
+/*
+7) Escreva um algoritmo para ler o salário mensal atual de um 
+funcionário e o percentual de reajuste. Calcular e escrever o 
+valor do novo salário.
+*/
+
+/*
+Está sendo usado get para buscar o valor de um 
+atributo (salarioAtual e reajuste)
+*/
+
+/*
+let InfoSalario = {
+    salarioAtual: 1000,
+    reajuste: 0.04,
+    get salarioNovo() {
+        return this.salarioAtual * (1 + this.reajuste)
+    } 
+}
+console.log(InfoSalario.salarioNovo)
+*/
+
+/*
+8) O IMC – Índice de Massa Corporal é um 
+critério da Organização Mundial de Saúde para dar 
+uma indicação sobre a condição de peso de uma pessoa adulta. 
+A fórmula é IMC = peso / ( altura )2 
+Elabore um algoritmo que leia o peso e a altura de um adulto e 
+mostre sua condição de acordo com as informações abaixo:
+a)IMC em adultos Condição 
+b)Abaixo de 18,5 Abaixo do peso 
+c)Entre 18,5 e 25 Peso normal 
+d)Acima de 25 e 30 Acima do peso 
+e)Acima de 30 obeso
+*/
+/*
+let peso = 100
+let altura = 1.7
+let imc = peso / Math.pow(altura, 2)
+
+if(imc < 18.5) {
+    console.log('Abaixo do peso: ' + imc)
+} else if (imc >= 18.5 && imc < 25) {
+    console.log('Peso normal: ' + imc) 
+} else if (imc >= 25 && imc < 30) {
+    console.log('Acima do peso: ' + imc)
+} else {
+    console.log('Obeso: ' + imc)
+}
+*/
+
+
